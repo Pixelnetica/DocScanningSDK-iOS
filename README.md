@@ -7,7 +7,7 @@ Document scanner SDK for iOS: document detection, image processing and enhanceme
 | Product | Contents |
 | --- | --- |
 | `DocScanningSDK` | Core SDK — detection, processing, OCR, writers (`import DocScanningSDK`) |
-| `DocScanningSDK-UI` | Ready-made UI components (camera screen, page-crop editor, OCR editor) on top of the core (`import DocScanningSDK_UI`). Includes the core framework. |
+| `DocScanningSDK-UI` | Ready-made UI components (camera screen, page-crop editor, OCR editor, OCR language picker) on top of the core (`import DocScanningSDK_UI`). Includes the core framework. |
 
 Most apps want `DocScanningSDK-UI`; choose `DocScanningSDK` alone for a fully custom UI.
 
@@ -20,7 +20,7 @@ Most apps want `DocScanningSDK-UI`; choose `DocScanningSDK` alone for a fully cu
 
 In Xcode: File > Add Package Dependencies, enter
 
-```
+```text
 https://github.com/Pixelnetica/DocScanningSDK-iOS
 ```
 
@@ -30,7 +30,7 @@ Or in `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/Pixelnetica/DocScanningSDK-iOS.git", from: "3.1.2-beta.1"),
+    .package(url: "https://github.com/Pixelnetica/DocScanningSDK-iOS.git", from: "3.0.0"),
 ],
 ```
 
@@ -38,13 +38,13 @@ The binary xcframeworks (with bundled dSYMs) are attached to the matching [GitHu
 
 ## License key
 
-The SDK requires a Pixelnetica license key at runtime. Request an evaluation or commercial key at [pixelnetica.com](https://www.pixelnetica.com/products/document-scanning-sdk/). Third-party attribution notices ship inside the frameworks.
+The SDK requires a Pixelnetica license key at runtime. Request an evaluation or commercial key at [pixelnetica.com](https://www.pixelnetica.com/products/document-scanning-sdk/sdk-support.html).
 
-## Demo
+## Demo application
 
-The EasyScanner demo application shows the full integration (camera, editing, OCR, export).
+The [EasyScanner](https://github.com/Pixelnetica/apple-ios-pdf-ocr-document-scanner) demo application shows the full integration (camera, editing, OCR, export).
 
 ## Support
 
-- Product page: <https://www.pixelnetica.com/products/document-scanning-sdk/>
-- Contact: <https://www.pixelnetica.com/contacts.html>
+- [Document Scanner SDK for iOS Product page](https://www.pixelnetica.com/products/document-scanning-sdk/ios-document-scanner-sdk.html)
+- [Contact](https://www.pixelnetica.com/products/document-scanning-sdk/sdk-support.html)

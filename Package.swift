@@ -16,12 +16,12 @@ let package = Package(
         .binaryTarget(
             name: "DocScanningSDK",
             url: "https://github.com/Pixelnetica/DocScanningSDK-iOS/releases/download/3.0.0/DocScanningSDK.xcframework.zip",
-            checksum: "66e3a72c5450cfe456dcc933af2e6e03a15568655ae9e38990a24a5960fbc44c"
+            checksum: "429a1bd94eb827c2535650d278eb6fc55b358694c5d79afb29d0f095cf81a4ce"
         ),
         .binaryTarget(
             name: "DocScanningSDK-UI",
             url: "https://github.com/Pixelnetica/DocScanningSDK-iOS/releases/download/3.0.0/DocScanningSDK-UI.xcframework.zip",
-            checksum: "376b80faad92af9bc2dba0b8f854c15c17649923ac58a7004bda988dfa3c6782"
+            checksum: "28f76798ae2e959c0f128c7e58b34c2e74b9c8dcfe2e40163f9897c8452b0c54"
         ),
     ]
 )

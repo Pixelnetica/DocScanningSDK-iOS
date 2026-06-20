@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Swift Package Manager build & dependency-resolution cache
+.build/
+.swiftpm/
+
+# Xcode
+DerivedData/
+xcuserdata/
+
+# Local tooling state
+.serena/
